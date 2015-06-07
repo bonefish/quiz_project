@@ -1,0 +1,45 @@
+RULES
+You are building a JavaScript quiz web application (you will use HTML and CSS as well) that will function as follows:
+
+It is a simple quiz that has radio button choices, and it will show the quiz taker his or her score upon completion.
+
+The quiz can show any number of questions and any number of choices.
+
+Tally the user’s score and display the final score on the last page. The last page will only show the score, so remove the last question.
+
+Use an array to store all the questions. Each question, along with its choices and correct answer, should be stored in an object. The array of questions should look similar to this (Notice that only one question is in this example array; you will add many questions):
+var allQuestions = [{question: "Who is Prime Minister of the United Kingdom?", choices: ["David Cameron", "Gordon Brown", "Winston Churchill", "Tony Blair"], correctAnswer:0}];
+
+Dynamically (with document.getElementById or jQuery) remove the current question and add the next question, when the user clicks the “Next” button. The Next button will be the only button to navigate this version of the quiz.
+
+DESIGN
+
+1. do you want to take the quiz,   HTML
+2. event - user responds to question. if yes, quiz starts.  if no, message.  HTML
+3. first question comes up with questions, and choices with radio buttons
+4. event - user selects a choice with radio button
+5. event - user hits submit
+6. if button selected is correct, score increases by 1; if answers is incorrect, score stays the same 
+7. next question loads - 4-6 happen again
+8. after submit on last question, dislay score.
+
+Java Script Steps:
+1. create an object function called QUESTION.  Question has the following properties: question, choices, correct choice (this is index).
+2. create X# of QUESTION objects using the funtion.
+3. create an array consisting of the Question Objects
+4. Creaste a score function?  If user input = correct answer of object, increment
+5. Create a for loop to display question, take a user input, run score function, and move onto next question (except after last question display score.)
+
+THINGS I DONT KNOW
+1. what gets done in html and what gets done in js
+2. LOTS OF THINGS - what to write in js to get it to work with html 
+
+
+What I plan to do:
+1. write things i can in JS
+2. create the html for question 1
+
+
+
+
+
