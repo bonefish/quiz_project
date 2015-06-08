@@ -36,9 +36,11 @@ THINGS I DONT KNOW
 
 
 What I plan to do:
-1. write things i can in JS
-2. create the html for question 1
-
+1. write things i can in JS - UPDATE - made Question objects and a score function
+2. create the html for question 1 UPDATE - done
+3. figure out radio buttons for html
+4. figure how to create a submit button on html - just the button - doesnt need to be active
+5. figure out if i need to id each answer choice 
 
 
 
