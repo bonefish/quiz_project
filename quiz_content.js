@@ -14,7 +14,7 @@ var ques3("What is my name?", ["Spot", "Finn", "George", "Kerry"], 3);
 var allQuestions = [ques1, ques2, ques3];
 
 score = 0
-var total = function(userInputTBD, this.correctAnswer) {
+var checkAnswer = function(userInputTBD, this.correctAnswer) {
 	if(userInputTBD === this.correctAnswer) {
 		var score= score + 1;}
 	else {
