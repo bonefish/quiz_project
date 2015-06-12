@@ -30,3 +30,6 @@ for (i = 0; i < allQuestions.length; i++) {
 		console.log(allQuestions[i].choices[x]);
 	}
 }
+
+console.log(document.getElementById("ques"));
+document.getElementById("ques").innerHTML = "Let's reframe this question...Move along, we have enough dogs";
